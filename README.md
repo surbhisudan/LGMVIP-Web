@@ -1,1 +1,1 @@
-# LGMVIP-Web
+# Web development assignment
