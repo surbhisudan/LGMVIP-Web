@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+    .box2 {
+    position: fixed;
+    top: 60px;
+    left: 70px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+  }
+  .box3 {
+    position: sticky;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 198, 13);
+  }
+  .box4 {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+  }
+  .box5 {
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+  }
+    </style>
+</head>
+<body>
+    <p>1.Static Position:The default position value for an element
+        is Static. In this position the element follows the normal flow of the document
+    </p>
+    <div class="box">box 1</div>
+
+    <p>2.Fixed Position: An element with fixed position is positioned
+        realtive to the viewport,and it does not scroll with the rest of the document.
+        <div class="box2">box 2</div>
+    </p>
+
+    <p>3. Sticky Position:A sticky positioned element behaves like relative until a 
+        specific scroll threshold is reached, then it becomes fixed. </p>
+        <div class="box3">box 3</div>
+
+     <p>4. Relative position:With a relative position, an element is positioned
+         relative to its normal position, and it retains its position within the document flow.</p> 
+         <div class="box4">box 4</div>  
+
+      <p>5.Absolute position:An element with an absolute position is positioned relative to its nearest positioned ancestor.
+         If no ancestor has a positioned property, it will be positioned relative to the initial 
+         containing block, usually the body</p>  
+         <div class="box5">box 5</div> 
+</body>
+</html>
