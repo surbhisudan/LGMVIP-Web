@@ -1,0 +1,15 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+td{padding:10px 100px}
+th{padding:10px}
+@media screen and (max-width:700px) {
+    table{
+        /* position: relative; */
+        overflow: scroll;
+    }
+
+    
+}

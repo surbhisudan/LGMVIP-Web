@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    width:90%;
+}
+
+img{
+    width:350px;
+    padding: 10px;
+   
+}
+@media screen and (min-width:800px) {
+    div{
+   
+        display:grid;
+        place-items: center;
+        grid-template-columns: repeat(3,350px);
+        gap:40px;
+        
+    }
+}
+
